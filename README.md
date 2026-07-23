@@ -3,7 +3,7 @@
 
 This project replicates the methodology presented in *Process Mining of Football Event Data: A Novel Approach for Tactical Insights Into the Game* using the Wyscout World Cup event dataset and the PM4Py process mining framework. The analysis focuses on the 2018 FIFA World Cup match between **Mexico** and **Germany**.
 
-Rather than evaluating the match using traditional football statistics such as possession percentage, passes completed, or shots on target, the project models each **possession** as an independent **process instance**. Every football action—such as a pass, duel, shot, or foul—is treated as an event within that process, allowing Process Mining algorithms to reconstruct the tactical workflows followed by each team.
+Rather than evaluating the match using traditional football statistics such as possession percentage, passes completed, or shots on target, the project models each **possession** as an independent **process instance**. Every football action—such as a pass, duel, shot, or foul—is treated as an event within that process, allowing Process Mining algorithms to reconstruct the tactical workflows followed by each team. **The analysis is implemented using PM4Py, an open-source Python library for Process Mining that provides tools for event log manipulation, process discovery, conformance checking, and process analysis.** This enables the automatic generation of process models that reveal how each team builds and develops its attacks throughout the match.
 
 After preparing the event log, the **Inductive Miner** discovers a process model that summarizes hundreds of possessions into a single representation of each team's attacking behavior. 
 
