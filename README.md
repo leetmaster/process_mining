@@ -17,6 +17,6 @@ The resulting Process Tree, BPMN diagram, and Petri Net reveal common sequences 
 
 Additional analyses, including variant analysis and player interaction networks, provide further insight into tactical patterns and collaboration between players.
 
-<img width="1013" height="1015" alt="image" src="https://github.com/user-attachments/assets/5e922adf-b40f-4398-9edf-de675544fbb2" />
+<img width="506" height="507" alt="image" src="https://github.com/user-attachments/assets/5e922adf-b40f-4398-9edf-de675544fbb2" />
 
 The project demonstrates that Process Mining offers a complementary perspective to conventional football analytics by shifting the focus from **counting events** to **understanding the processes that generate them**. This methodology makes it possible to compare playing styles, identify recurring tactical behaviors, and visualize the "grammar" of a team's attack directly from event data.
